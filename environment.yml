@@ -1,0 +1,14 @@
+name: data1030
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - requests
+  - beautifulsoup4
+# Pin exact versions once the code works (conda env export --from-history)
