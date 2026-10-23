@@ -1,0 +1,7 @@
+{
+  "source": "https://data.cityofnewyork.us/resource/43nn-pn8j.json",
+  "dataset_id": "43nn-pn8j",
+  "pulled_at_utc": "2026-10-23T20:51:15+00:00",
+  "n_rows": 295422,
+  "n_columns": 26
+}
