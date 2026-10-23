@@ -10,5 +10,5 @@ dependencies:
   - scikit-learn
   - jupyterlab
   - requests
+  - python-dotenv
   - beautifulsoup4
-# Pin exact versions once the code works (conda env export --from-history)

@@ -1,11 +1,11 @@
 # DATA1030 Project
 
-> Project title and one-paragraph overview go here: what you predict, why it matters, and where the data comes from.
+> Can we predict which restaurant will fail its health inspection before the inspector walks in?
 
 ## Team
-- Name 1
-- Name 2
-- Name 3
+- Ahmed Hanzala
+- Luke Sidwell
+- Yuan Ying
 
 ## Repository structure
 ```
@@ -21,18 +21,15 @@
 
 ## Setup
 Python version: 3.12
-
 ```bash
 conda env create -f environment.yml
 conda activate data1030
 ```
 
-Package versions: _list exact versions here once finalized._
+Package versions: in `enviorment.yml`
 
 ## Data
-_Describe how the data was collected (API / scraping / PDF extraction) and which notebook in `src/` reproduces it. If the data is too large for GitHub, link it here._
-
-Data documentation: _link to the column descriptions (e.g. `data/README.md`)._
+NYC restaurant inspections, pulled from the NYC Open Data API. code is in `src/build_dataset.py` and `collect.py`. More information about data and each of its feature is located in `data/README.md`
 
 ## License
 MIT. See [LICENSE](LICENSE).
