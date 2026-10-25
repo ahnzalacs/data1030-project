@@ -29,7 +29,7 @@ conda activate data1030
 Package versions: in `environment.yml`
 
 ## Data
-NYC restaurant inspections, pulled from the NYC Open Data API. code is in `src/build_dataset.py` and `collect.py`. More information about data and each of its feature is located in `data/README.md`
+NYC restaurant inspections, pulled from the NYC Open Data API. code is in `src/build_dataset.py` and `src/collect.py`. More information about data and each of its feature is located in `data/README.md`
 
 ## License
 MIT. See [LICENSE](LICENSE).
